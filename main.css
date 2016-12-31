@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html, body, header, section, footer {
+  margin: 0;
+  padding: 0;
+}
+
+section, footer {
+  padding: 0.3rem 0.5rem;
+}
+
+.header {
+  background: #2E7B71 url(https://targetjobs.co.uk/sites/targetjobs.co.uk/files/public/it-technology.jpg) no-repeat 0 0.5rem;
+  background-size: cover;
+  color: #eee;
+  padding: 5rem 0.5rem;
+  text-align: center;
+}
+
+.tagline, .contact {
+  text-align: center;
+}
+
+.skills {
+  background: #2E7B71;
+  color: #eee;
+}
+
+a {
+  color: #5E92A7;
+  font-weight: 800;
+  margin: 0 1rem;
+}
+
+a:hover {
+  color: #4374AF;
+}
